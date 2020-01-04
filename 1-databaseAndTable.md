@@ -1,29 +1,30 @@
+#DataBase
 
-* For #Creating Database
+* For Creating Database
 ```
 create databse dtatabaseName;
 	
 ```
 
-* For #Creating Databs
+* For Showing Databs
 ```
 show databases;
 	
 ```
 
-* For #Showing Databaes
+* For Showing Tables
 ```
 show tables;
 	
 ```
 
-* For #Removing database completly
+* For Removing database completly
 ```
 drop databaseName;
 	
 ```
 
-* For #Creating Databs
+* For Creating Databs
 ```
 -- example
 	

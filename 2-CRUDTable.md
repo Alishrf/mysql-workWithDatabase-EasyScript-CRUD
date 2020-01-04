@@ -1,5 +1,5 @@
 # Create
-* For Inserting And Creating 
+* For Inserting And Creating  Data
 ```
 use test;
 insert into tableName
@@ -74,6 +74,24 @@ select * from course where number_of_credits > 3;
 select * from course where number_of_credits > 3;
 ```
 
+# Update
+
+* Update 'first name' & 'last name' of studunt with id = 1
+```
+update test.student set
+first_name = 'william',
+last_name = 'carry'
+where id = 1 ;
+
+```
+
+* Update 'first name' & 'last name' of All studuns(Be Careful)
+```
+update test.student set
+first_name = 'william',
+last_name = 'carry';
+
+```
 
 
 

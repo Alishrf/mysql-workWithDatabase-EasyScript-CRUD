@@ -22,9 +22,15 @@ values
 select * from student;
 
 ```
-* For Selecting All Data From  Database Just Show first_name column  as 'First Name' ,last_name column  as 'Last Name' ,...
+
+* For Selecting All Data From  Database ust Show first_name column ,last_name column , date_of_birth column
 ```
 select first_name,last_name,date_of_birth from student;
+```
+
+* For Selecting All Data From  Database Just Show first_name column  as 'First Name' ,last_name column  as 'Last Name' ,...
+```
+
 select first_name as 'First Name',
 last_name as 'Last Name',
 date_of_birth as 'Date of Birth' 
@@ -32,7 +38,7 @@ from student;
 
 ```
 
-* Retriew data with limi 2 
+* Retriew data with limit 2 
 
 ```
 SELECT * FROM test.student limit 2;
@@ -85,7 +91,7 @@ where id = 1 ;
 
 ```
 
-* Update 'first name' & 'last name' of studunt with list o
+* Update 'first name' & 'last name' of studunt with list of id
 ```
 update test.student set
 first_name = 'william',

@@ -85,12 +85,66 @@ where id = 1 ;
 
 ```
 
+* Update 'first name' & 'last name' of studunt with list o
+```
+update test.student set
+first_name = 'william',
+last_name = 'carry'
+where id = 1 ;
+
+```
+
 * Update 'first name' & 'last name' of All studuns(Be Careful)
 ```
 update test.student set
 first_name = 'william',
 last_name = 'carry';
 
+```
+
+# Delete
+* deleting one row by id
+```
+select * from test.student;
+```
+* deleting one row by id
+```
+delete from test.student where id = 5 ;
+```
+
+* removing multiple rows using a list of potential values
+```
+delete from test.student where id in (3,4);
+```
+
+* removing sutudent named 'william carry'
+```
+delete from test.student where first_name = 'william' and last_name = 'carry';
+```
+
+* deleting one row by id
+```
+select * from test.student;
+```
+
+* deleting one row by id
+```
+delete from test.student where id = 5 ;
+```
+
+* removing multiple rows using a list of potential values
+```
+delete from test.student where id in (3,4);
+```
+
+* removing sutudent named 'william carry'
+```
+delete from test.student where first_name = 'william' and last_name = 'carry';
+```
+
+* removing students with name contanain word 'William'
+```
+delete from test.student where first_name like '%ali2%' or last_name like '%ali2%';
 ```
 
 
